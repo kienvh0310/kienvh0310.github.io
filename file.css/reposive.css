@@ -1,0 +1,122 @@
+/* tablet va mobile */
+@media(min-width:740px) and (max-width:1023px){
+    .ticket-btn{
+      padding:15px 16px;
+    }
+
+    .form-control{
+        padding: 15px;
+    }
+    .footer-icon{
+        font-size: 35px;
+       
+    }
+    .footer-icon i{
+        margin: 0 8px;
+    }
+    .contact-adress{
+        line-height: 2.0;
+    }
+.copy-right {
+    font-size: 25px;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/* mobile */
+@media(max-width:739px){
+    #header{
+      overflow: hidden;
+      
+    }
+    #nav li {
+        display: block;
+    }
+    .btn-search{
+        display: none;
+    }
+    #nav{
+  display: block;
+    }
+    #nav>li>a{
+        display: block;
+        padding: 1px 24px;
+    }.mobile-menu{
+        display: block;
+    }
+    #nav>li:first-child{
+        display: inline-block;
+    }
+    #nav .subnav{
+
+        position: initial;
+    }
+    #nav .subnav a{
+     width: 100%;
+     padding: 5px 32px;
+     background-color: rgb(48, 48, 48);
+     color: white;
+  
+    }
+
+    .col{
+        float:initial
+    }
+    
+    .member-img{
+       width: 229.5px;
+        height: 229.5px;
+    }
+    .list-member{
+        width: 100%;
+    }
+    
+    .slider-content{
+        display: none;
+    }
+    .ticket-location{
+        width: 100%;
+    }
+    .contact-adress{
+        width: 100%;
+        line-height: 2;
+    }
+    .contact-login1,.contact-login{
+        width: 100%;
+     
+        
+    }
+    .contact-login{
+        margin-top: 16px;
+    }
+    .s-mt-8{
+        margin-top: 8px;
+    }
+    .s-width-full{
+        width: 100%;
+        
+    }
+    .txt-align{
+        text-align: center;
+    }
+
+    .contact-adress a{
+        color: #101aef;
+        opacity: 80%;
+    }
+    .contact-adress a:hover{
+        opacity: 1;
+    }
+} 
+
+
